@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+    --font-sans:  sans-serif;
+;
+
+    --color-jdbrown: #7A6053;
+    --color-jdbase: #CCCCCC;
+    --color-jdwhite: #D9D9D9;
+    --color-jdchocomilk: #B7A9A2;
+    --color-jdsuccess: #9FB27F;
+    --color-jdinfo: #8493B4;
+}
