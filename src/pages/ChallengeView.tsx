@@ -18,7 +18,7 @@ export default function ChallengeView() {
   console.log(id)
 
   return (
-    <div className="w-6/7 mt-10">
+    <div className="w-5/7 mt-10">
       {/* Main content */}
       <h1>Submissions</h1>
       Challenge ID: {id}

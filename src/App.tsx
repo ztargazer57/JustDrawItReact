@@ -10,11 +10,11 @@ import Home from "./pages/Home";
 function App() {
   return (
     <>
-      <div className="bg-jdbase overflow-x-hidden ">
+      <div className="bg-jdbase overflow-x-hidden font-sans">
         <Navbar />
         <Sidebar />
         {/* Home Contents */}
-        <main className="ml-13 w-7/9 p-10 min-h-screen h-full">
+        <main className="ml-13 w-9/10 p-10 min-h-screen h-full">
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/challenge" element={<ChallengeList />}/>

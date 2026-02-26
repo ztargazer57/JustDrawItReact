@@ -1,8 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 
 @theme {
-    --font-sans:  sans-serif;
-;
+    --font-sans:  "New Tegomin",sans-serif;
 
     --color-jdbrown: #7A6053;
     --color-jdbase: #CCCCCC;
