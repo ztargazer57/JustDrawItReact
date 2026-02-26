@@ -1,4 +1,5 @@
 
+import { useParams } from "react-router-dom";
 import ArtGallery from "../components/sections/ArtworkGallery";
 import ChallengeInfo from "../components/sections/ChallengeInfo";
 const challengeArtworks = [
@@ -12,10 +13,15 @@ const challengeArtworks = [
 ]
 
 export default function ChallengeView() {
+  const { id } = useParams()
+
+  console.log(id)
+
   return (
     <div className="w-6/7 mt-10">
       {/* Main content */}
       <h1>Submissions</h1>
+      Challenge ID: {id}
       <div className="p-6">
             <ArtGallery artworks={challengeArtworks} breakpoints={{ default: 3, 1024: 2, 640: 1 }} />
       </div>
