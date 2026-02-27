@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import ChallengeCard from "../components/cards/ChallengeCard";
 import Carousel from "../components/sections/Carousel";
+import Button from "../components/Button";
 
 const challenges = [
   { id: 1, title: "Dark Fantasy" },
@@ -11,8 +12,14 @@ const challenges = [
 export default function ChallengeList() {
   return (
     <>
-      <Carousel imageUrl="" />
-      <div>
+      <Carousel imageUrl="">
+        <Link to="/challenge/add">
+          <div className="ml-auto h-fit w-fit">
+            <Button label="New Challenge" bgColor="#9FB27F"></Button>
+          </div>
+        </Link>
+      </Carousel>
+      <div className="flex">
         <h1>Recent Sessions</h1>
       </div>
       <div className=" grid grid-cols-3 gap-90 gap-y-10 mt-9">

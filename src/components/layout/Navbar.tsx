@@ -2,7 +2,7 @@ import { Menu, MenuButton, MenuItem, MenuItems, } from "@headlessui/react";
 import { Search } from "lucide-react";
 export default function Navbar() {
   return (
-    <nav className="w-screen bg-jdwhite shadow-sm px-6 py-2 pl-6 md:pl-20 fixed">
+    <nav className="w-screen bg-jdwhite shadow-sm px-6 py-2 pl-6 md:pl-20 fixed z-40">
       <div className="flex">
         {/* Push search + profile to the right */}
         <div className="flex gap-50 ml-auto">

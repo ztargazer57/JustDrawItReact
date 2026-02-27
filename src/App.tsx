@@ -6,6 +6,7 @@ import ChallengeView from "./pages/ChallengeView";
 import Gallery from "./pages/Gallery";
 import ChallengeList from "./pages/ChallengeList";
 import Home from "./pages/Home";
+import ChallengeAdd from "./pages/ChallengeAdd";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Home />}/>
             <Route path="/challenge" element={<ChallengeList />}/>
             <Route path="/challenge/:id" element={<ChallengeView />}/>
+            <Route path="/challenge/add" element={<ChallengeAdd />}/>
             <Route path="/gallery" element={<Gallery />}/>
           </Routes>
         </main>
